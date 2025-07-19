@@ -16,7 +16,7 @@ import './App.css'
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/Hotel-Management">
         <div className="min-h-screen bg-gray-50">
           <Navbar />
           <main>
